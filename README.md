@@ -13,6 +13,26 @@ The analysis focuses on exploring how different ask strategies, match ratios, an
 - `index.qmd`: Quarto markdown document containing code and narrative.
 - `karlanlist.ipynb`: Jupyter notebook, outlining the code.
 
+## Approach and Steps
+1. **Data Loading and Cleaning**
+   - Load the `.dta` file using pandas.
+   - Inspect variable types, handle missing values, and perform necessary transformations.
+
+2. **Exploratory Data Analysis (EDA)**
+   - Plot histograms and bar charts for continuous and categorical variables to understand distributions.
+   - Analyze donation behavior across demographic groups.
+
+3. **Treatment Effect Analysis**
+   - Compare the proportion of donors in the treatment and control groups.
+   - Compare donation amounts (see `img4.png`) and calculate average treatment effect.
+
+4. **Simulation and Statistical Validation**
+   - Run simulations to demonstrate the Law of Large Numbers.
+   - Illustrate the Central Limit Theorem by showing sampling distributions at various sample sizes.
+
+5. **Summarize Key Findings**
+   - Interpret the insights and effectiveness of the treatment strategies.
+  
 ## Key Insights
 - **Treatment Effects**: Treatment increased the donation rate slightly (2.2% vs 1.8%).
 - **Donation Amounts**: Despite a higher response rate, the average donation in the treatment group was slightly lower than in the control group.
@@ -31,6 +51,5 @@ The analysis focuses on exploring how different ask strategies, match ratios, an
 
 ## References
 Karlan, D., & List, J. A. (2007). Does Price Matter in Charitable Giving? Evidence from a Large-Scale Natural Field Experiment. *American Economic Review*, 97(5), 1774–1793.
-
 
 
