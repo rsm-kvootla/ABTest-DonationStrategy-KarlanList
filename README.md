@@ -37,7 +37,7 @@ The analysis focuses on exploring how different ask strategies, match ratios, an
 - **Treatment Effects**: Treatment increased the donation rate slightly (2.2% vs 1.8%).
 - **Donation Amounts**: Despite a higher response rate, the average donation in the treatment group was slightly lower than in the control group.
 - **Simulations**:
-  - Law of Large Numbers: Bernoulli Simulation confirms convergence of sample means to the true treatment effect as sample size increases.
+  - Law of Large Numbers: Monte Carlo Simulation confirms convergence of sample means to the true treatment effect as sample size increases.
   - Central Limit Theorem: Shows how the distribution of sample means approaches normality with larger sample sizes.
 
 ## Requirements
